@@ -14,7 +14,7 @@ body {
 .title {
   text-align: center;
   font-size: 4.5rem;
-  font-weight: 550;
+  font-weight: 500;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   line-height: 1;
@@ -39,7 +39,7 @@ body {
 
 .sub-title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 400;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -117,7 +117,7 @@ body {
 
 /***************************grid*************************************/
 
-.grid-poco-x5 {
+.grid-buds4 {
   display: flex;
   max-width: 62rem;
   margin: 0 auto;
@@ -212,11 +212,13 @@ body {
 
   .grid-poco-x5 {
     display: flex;
-    max-width: 62rem;
+    max-width: 24rem;
     margin: 0 auto;
-    padding-top: 7rem;
-    gap: 2.7rem;
-    flex-wrap: wrap;
-    align-content: center;
+    padding-top: 2rem;
+    gap: 1.7rem;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
   }
 }
