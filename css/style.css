@@ -122,6 +122,7 @@ body {
   max-width: 62rem;
   margin: 0 auto;
   padding-top: 7rem;
+  padding-bottom: 7rem;
   gap: 2.7rem;
   flex-wrap: wrap;
   align-content: center;
