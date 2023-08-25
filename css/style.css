@@ -211,15 +211,13 @@ body {
     color: #7f7f7f;
   }
 
-  .grid-poco-x5 {
+  .grid-buds4 {
     display: flex;
-    max-width: 24rem;
-    margin: 0 auto;
-    padding-top: 2rem;
-    gap: 1.7rem;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: stretch;
+    margin: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-content: center;
   }
 }
