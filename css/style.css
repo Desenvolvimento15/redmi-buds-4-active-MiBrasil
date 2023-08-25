@@ -13,8 +13,8 @@ body {
 
 .title {
   text-align: center;
-  font-size: 4rem;
-  font-weight: 800;
+  font-size: 4.5rem;
+  font-weight: 550;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   line-height: 1;
@@ -119,11 +119,12 @@ body {
 
 .grid-poco-x5 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 55rem;
+  max-width: 62rem;
   margin: 0 auto;
-  gap: 4rem;
+  padding-top: 7rem;
+  gap: 2.7rem;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 /***************************************************************/
@@ -211,8 +212,11 @@ body {
 
   .grid-poco-x5 {
     display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    justify-content: center;
+    max-width: 62rem;
+    margin: 0 auto;
+    padding-top: 7rem;
+    gap: 2.7rem;
+    flex-wrap: wrap;
+    align-content: center;
   }
 }
