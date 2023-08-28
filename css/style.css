@@ -11,6 +11,11 @@ body {
   font-family: "Camphor Pro", sans-serif;
 }
 
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
 .title {
   text-align: center;
   font-size: 4.5rem;
@@ -212,11 +217,20 @@ body {
   }
 
   .grid-buds4 {
-    display: flex;
+    /*display: flex;
     margin: 1rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
     gap: 1rem;
+    flex-wrap: wrap;
+    align-content: center;*/
+
+    display: flex;
+    max-width: 62rem;
+    margin: 0 auto;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    gap: 2.7rem;
     flex-wrap: wrap;
     align-content: center;
   }
