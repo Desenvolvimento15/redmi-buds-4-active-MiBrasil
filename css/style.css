@@ -141,6 +141,7 @@ body {
   .grid-buds4-desk {
     display: none;
   }
+
   .img-fluid-mob {
     width: 80%;
   }
@@ -226,13 +227,41 @@ body {
   }
 
   .grid-buds4-mobile {
+    align-items: center;
     display: flex;
-    max-width: 62rem;
-    margin: 0 auto;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-    gap: 2.7rem;
-    flex-wrap: wrap;
-    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 53.75rem;
+    width: 22.5rem;
+  }
+
+  .div01 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 12.395833rem;
+    width: 20.416667rem;
+  }
+
+  .div02 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 0.625rem;
+    margin-top: 0.625rem;
+    min-height: 11.25rem;
+    width: 20.416667rem;
+  }
+
+  .div03 {
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 8.333333rem;
+    width: 20.395833rem;
   }
 }
