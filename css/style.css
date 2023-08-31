@@ -122,7 +122,7 @@ body {
 
 /***************************grid*************************************/
 
-.grid-buds4 {
+.grid-buds4-desk {
   display: flex;
   max-width: 62rem;
   margin: 0 auto;
@@ -132,10 +132,19 @@ body {
   flex-wrap: wrap;
   align-content: center;
 }
-
+.grid-buds4-mobile {
+  display: none;
+}
 /***************************************************************/
 
 @media (max-width: 920px) {
+  .grid-buds4-desk {
+    display: none;
+  }
+  .img-fluid-mob {
+    width: 80%;
+  }
+
   .title {
     text-align: center;
     font-size: 2rem;
@@ -216,15 +225,7 @@ body {
     color: #7f7f7f;
   }
 
-  .grid-buds4 {
-    /*display: flex;
-    margin: 1rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    gap: 1rem;
-    flex-wrap: wrap;
-    align-content: center;*/
-
+  .grid-buds4-mobile {
     display: flex;
     max-width: 62rem;
     margin: 0 auto;
