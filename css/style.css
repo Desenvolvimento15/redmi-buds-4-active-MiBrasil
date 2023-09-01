@@ -138,12 +138,21 @@ body {
 /***************************************************************/
 
 @media (max-width: 920px) {
+  .grid-buds4-mobile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 53.75rem;
+    width: 22.5rem;
+  }
+
   .grid-buds4-desk {
     display: none;
   }
 
   .img-fluid-mob {
-    width: 80%;
+    width: 100%;
   }
 
   .title {
@@ -224,15 +233,6 @@ body {
     position: relative;
     font-weight: 400;
     color: #7f7f7f;
-  }
-
-  .grid-buds4-mobile {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 53.75rem;
-    width: 22.5rem;
   }
 
   .div01 {
