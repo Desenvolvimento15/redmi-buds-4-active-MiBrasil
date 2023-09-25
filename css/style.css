@@ -11,6 +11,10 @@ body {
   font-family: "Camphor Pro", sans-serif;
 }
 
+.img-grid {
+  padding: 15rem;
+}
+
 .img-fluid {
   width: 100%;
   height: auto;
@@ -138,6 +142,9 @@ body {
 /***************************************************************/
 
 @media (max-width: 920px) {
+  .img-grid {
+    padding: 1.5rem;
+  }
   .grid-buds4-mobile {
     align-items: center;
     display: flex;
@@ -146,10 +153,6 @@ body {
     min-height: 53.75rem;
     width: 22.5rem;
     margin: 0 auto;
-  }
-
-  .grid-buds4-desk {
-    display: none;
   }
 
   .img-fluid-mob {
