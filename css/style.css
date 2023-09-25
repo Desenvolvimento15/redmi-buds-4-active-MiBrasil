@@ -145,6 +145,7 @@ body {
     justify-content: space-between;
     min-height: 53.75rem;
     width: 22.5rem;
+    margin: 0 auto;
   }
 
   .grid-buds4-desk {
@@ -233,15 +234,6 @@ body {
     position: relative;
     font-weight: 400;
     color: #7f7f7f;
-  }
-
-  .div01 {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    min-height: 12.395833rem;
-    width: 20.416667rem;
   }
 
   .div02 {
